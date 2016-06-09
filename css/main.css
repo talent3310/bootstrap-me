@@ -2,9 +2,7 @@
 *
 * ---------------------------------------------------------------------------
 *
-* Template : Blue - A One-Page HTML Portfolio/Business Template
-* Author : Muhammad Morshd
-* Author URI : http://morsheds.com
+* Author : David Berg
 *
 * --------------------------------------------------------------------------- 
 *
@@ -508,6 +506,17 @@ h1.navbar-brand {
 }
 
 /*=================================================================
+    Nab Bar
+==================================================================*/
+
+.navbar-brand img {
+    border: 1px solid #fff;
+    margin-right: 26px;
+    margin-top: -20px;
+    max-width: 115px;
+}
+
+/*=================================================================
 	About
 ==================================================================*/
 
@@ -534,7 +543,7 @@ h1.navbar-brand {
 }
 
 #about .message-body {
-    font-size: 13px;
+    font-size: 16px;
     line-height: 20px;
     margin-bottom: 70px;
 }
@@ -608,6 +617,23 @@ h1.navbar-brand {
 .service-item h3 {
     font-size: 20px;
     text-transform: uppercase;
+}
+
+.bar-skill {
+    border-radius: 7px;
+    height: 26px;
+    padding: 5px;
+    background: #eee;
+}
+
+.this-skill {
+    border-radius: 3px;
+    height: 15px;
+    
+}
+
+.my-blue {
+    background: #009EE3;
 }
 
 /*=================================================================
