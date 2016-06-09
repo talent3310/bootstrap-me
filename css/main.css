@@ -636,6 +636,80 @@ h1.navbar-brand {
     background: #009EE3;
 }
 
+.cont-ab {
+    background-color: rgba(224, 227, 232, 0.5);
+    text-align: center;
+    border-radius: 10px;
+    padding: 36px 10px;
+}
+
+.title-four {
+    font-size: 28px;
+    font-weight: 300;
+    margin-bottom: 35px;
+}
+
+.cont-mg {
+    margin-top: 50px;
+}
+.color-b {
+    color: #DC0E0E;
+}
+
+.text-awsm {
+    font-size: 21px;
+    text-align: center;
+    padding-top: 13px;
+    padding-bottom: 14px;
+    color: #758599;
+}
+.expert {
+    font-size: 20px;
+    padding-bottom: 13px;
+    padding-top: 14px;
+    color: #EC0856;
+}
+
+.advanced {
+    font-size: 20px;
+    padding-bottom: 13px;
+    padding-top: 14px;
+    color: #0977C7;
+}
+
+.ability {
+    font-size: 20px;
+    font-weight: 300;
+    color: #5b6b7f;
+    padding-top: 14px;
+    padding-bottom: 13px
+}
+
+.img-soft {
+    margin-top: 10px;
+    margin-bottom: 9px;
+    max-width: 32px;
+}
+
+.intrst {
+    text-align: center;
+    height: 65px;
+    margin-bottom: 11px;
+    line-height: 5;
+}
+
+.cont-mg .col-md-4{
+    margin-bottom: 10px;
+}
+
+.icon-skill {
+    text-align: right;
+    height: 75px;
+    padding-top: 20px;
+}
+.icon-skill img {
+    max-width: 32px;
+}
 /*=================================================================
 	Portfolio
 ==================================================================*/
