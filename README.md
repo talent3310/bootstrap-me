@@ -2,4 +2,5 @@
 <br>
 <br>
 <br>
-https://github.com/david3310/bootstrap-me/blob/master/screenshot.png
+
+![Alt text](https://github.com/david3310/bootstrap-me/blob/master/screenshot.png "Optional Title")
