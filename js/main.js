@@ -106,9 +106,13 @@ $(document).ready(function(){
         if ($(window).scrollTop() > 400) {
             $(".navbar-brand a").css("color","#fff");
             $("#navigation").removeClass("animated-header");
+            $(".navbar-brand img").css("opacity", "0");
+            $("#myName").css("color","white");
         } else {
             $(".navbar-brand a").css("color","inherit");
             $("#navigation").addClass("animated-header");
+            $(".navbar-brand img").css("opacity", "1");
+            $("#myName").css("color","rgba(255,255,255,0)");
         }
     });
 	
@@ -117,7 +121,7 @@ $(document).ready(function(){
 	/* ========================================================================= */	
 
     // Slider Height
-    var slideHeight = $(window).height();
+    var slideHeight = $(window).height() + 20;
     
     $('#home-slider, #slider, .sl-slider, .sl-content-wrapper').css('height',slideHeight);
 
@@ -181,7 +185,7 @@ function init() {
     // Basic options for a simple Google Map
     // For more options see: https://developers.google.com/maps/documentation/javascript/reference#MapOptions
 
-	    var myLatLng = new google.maps.LatLng(22.402789, 91.822156);
+	    var myLatLng = new google.maps.LatLng(59.336320, 17.949468);
 
 	    var mapOptions = {
 	        zoom: 15,
@@ -253,7 +257,7 @@ function init() {
 
     // Let's also add a marker while we're at it
     var marker = new google.maps.Marker({
-        position: new google.maps.LatLng(22.402789, 91.822156),
+        position: new google.maps.LatLng(59.336320, 17.949468),
         map: map,
 		icon: 'img/icons/map-marker.png',
     });
