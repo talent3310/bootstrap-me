@@ -695,7 +695,7 @@ h1.navbar-brand a{
 }
 
 .cont-mg {
-    margin-top: 50px;
+    // margin-top: 50px;
 }
 .color-b {
     color: #DC0E0E;
@@ -761,6 +761,10 @@ h1.navbar-brand a{
 .icon-skill img {
     max-width: 32px;
 }
+.progress {
+    border-radius: 0px;
+}
+
 /*=================================================================
 	Portfolio
 ==================================================================*/
@@ -1044,17 +1048,27 @@ ul.external li a:hover {
 
 
 /*=================================================================
+    availableskill
+==================================================================*/
+
+#availableskill {
+
+}
+
+/*=================================================================
 	Price
 ==================================================================*/
 
 #social {
-    background-image: url(../img/slider/banner.jpg);
+    background-image: url(../img/parallax/paper.jpg);
+    // background-color: #009EE3;
     padding: 0;
 }
 
 #social .overlay {
-    background: url("../img/slide_bg.png") repeat scroll 0 0 transparent;
+    // background: url("../img/icons/slide_bg.png") repeat scroll 0 0 transparent;
     padding: 100px 0 120px;
+    // background-color: rgba(15,155,224, 0.78);
 }
 
 .social-button {
