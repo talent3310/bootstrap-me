@@ -681,7 +681,7 @@ h1.navbar-brand a{
 }
 
 .cont-ab {
-    background-color: rgba(224, 227, 232, 0.5);
+    // background-color: rgba(224, 227, 232, 0.5);
     text-align: center;
     border-radius: 10px;
     padding: 36px 10px;
@@ -691,6 +691,7 @@ h1.navbar-brand a{
     font-size: 28px;
     font-weight: 300;
     margin-bottom: 35px;
+    text-decoration: underline;
 }
 
 .cont-mg {
