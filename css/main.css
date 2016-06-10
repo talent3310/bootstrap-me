@@ -288,15 +288,9 @@ main > section {
          -o-transition: all 0.8s ease 0s;
             transition: all 0.8s ease 0s;
 }
+
 #navigation .navbar-brand a span{
-        -webkit-transition: all 0.8s ease 0s;
-       -moz-transition: all 0.8s ease 0s;
-        -ms-transition: all 0.8s ease 0s;
-         -o-transition: all 0.8s ease 0s;
-            transition: all 0.8s ease 0s;
-}
-#navigation .navbar-brand a span{
-    color: rgba(255,255,255,0);
+    color: rgba(255,255,255,255);
 }
 #navigation.animated-header {
     padding: 20px 0;
@@ -404,7 +398,7 @@ h1.navbar-brand a{
 
 .caption-content h2 {
     color: #fff;
-    font-size: 42px;
+    font-size: 36px;
     font-weight: 400;
     margin-bottom: 25px;
     text-transform: uppercase;
@@ -622,6 +616,12 @@ h1.navbar-brand a{
     margin-left: 135px;
 }
 
+.high-top {
+    background-color: #009EE3;
+}
+.high-middle {
+    background-color: #009EE3;
+}
 /*=================================================================
 	Services
 ==================================================================*/
@@ -1307,7 +1307,7 @@ textarea.form-control {
 
 /* home slider  */
     .caption-content h2 {
-        font-size: 40px;
+        font-size: 32px;
     }
 
     .caption-content p {
@@ -1515,7 +1515,7 @@ textarea.form-control {
 
 /* home slider */
     .caption-content h2 {
-        font-size: 35px;
+        font-size: 32px;
     }
 
     .caption-content p {

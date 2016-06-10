@@ -107,12 +107,12 @@ $(document).ready(function(){
             $(".navbar-brand a").css("color","#fff");
             $("#navigation").removeClass("animated-header");
             $(".navbar-brand img").css("opacity", "0");
-            $("#myName").css("color","white");
+
         } else {
             $(".navbar-brand a").css("color","inherit");
             $("#navigation").addClass("animated-header");
             $(".navbar-brand img").css("opacity", "1");
-            $("#myName").css("color","rgba(255,255,255,0)");
+
         }
     });
 	
