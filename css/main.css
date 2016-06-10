@@ -622,6 +622,7 @@ h1.navbar-brand a{
 .high-middle {
     background-color: #009EE3;
 }
+
 /*=================================================================
 	Services
 ==================================================================*/
@@ -720,6 +721,12 @@ h1.navbar-brand a{
     color: #0977C7;
 }
 
+.medium {
+   font-size: 20px;
+    padding-bottom: 13px;
+    padding-top: 14px;
+    color: #5b6b7f;
+}
 .ability {
     font-size: 20px;
     font-weight: 300;
